@@ -1,0 +1,21 @@
+1. Генерация ключа:
+
+python aes_cipher.py generate_key
+
+
+2. Шифрование файла:
+
+python aes_cipher.py encrypt plain.txt encrypted.bin
+
+
+3. Дешифрование файла:
+
+python aes_cipher.py decrypt encrypted.bin decrypted.txt
+
+
+После дешифрования программа запросит имя оригинального файла для проверки целостности:
+
+Введите имя оригинального файла для проверки целостности:
+
+
+Введите plain.txt (или другое имя исходного файла) для сравнения
